@@ -1,0 +1,115 @@
+.left {
+    order: 1;
+  }
+  
+  .right {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex: 0 0 100px;
+    flex-flow: column;
+    text-align: left;
+    background: #dddddd;
+    margin: 20px;
+    width: 20vw;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .analysis {
+    order: 4;
+    background: #dddddd;
+    margin: 20px;
+    width: 20vw;
+    height: 40vh;
+  }
+  
+  .empty {
+    background: #bebdbd;
+    width: 90%;
+    height: 60%;
+    position: relative;
+    left: 80px;
+    top: 20px;
+  }
+  
+  .reviews {
+    order: 2;
+    background: #dddddd;
+    margin: 20px;  
+    width: 20vw;
+    height: 40vh;
+  }
+  
+  .rating {
+    order: 3;
+    background: #dddddd;
+    margin: 20px;
+    width: 20vw;
+    height: 40vh;
+  }
+  
+  .visitors {
+    order: 5;
+    text-align: left;
+    background: #dddddd;
+    margin: 20px;
+    width: 65vw;
+    height: 50vh;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .App {
+    display: flex;
+    background: #f7f6f6;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;  
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
